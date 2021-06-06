@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Task9 {
+    private Task9(){}
 
     public static List<String> shouldReturnStringListWithLengthAndFirstLetter(List<String> stringList) {
         return stringList.stream()

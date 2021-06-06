@@ -5,6 +5,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Task15 {
+    private Task15(){}
 
     public static List<CountryStat> name(List<Good> goodList, List<StorePrice> storePriceList) {
         return goodList.stream()

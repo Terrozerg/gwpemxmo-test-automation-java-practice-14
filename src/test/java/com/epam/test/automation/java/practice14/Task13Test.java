@@ -12,7 +12,7 @@ import java.util.List;
 public class Task13Test {
 
     @Test
-    public void test(){
+    public void testGetYearSchoolStatList(){
         List<Integer> yearsData = Arrays.asList(2001, 1999, 2000, 2002, 2003);
         List<Entrant> entrantsData = Arrays.asList(
                 new Entrant(11, 2003, "Ivanov"),

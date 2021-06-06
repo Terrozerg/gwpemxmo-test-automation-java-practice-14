@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Task3 {
+    private Task3(){}
 
     public static List<String> getListExtremeLetters(List<String> list) {
         return list.stream()

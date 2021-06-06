@@ -1,12 +1,15 @@
 package com.epam.test.automation.java.practice14.advanced.task14;
 
-import java.util.Arrays;
+import com.epam.test.automation.java.practice14.advanced.task15.Task15;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class Task14 {
+    private Task14(){}
+
     public static List<ShopWithMaxDiscountOwner> getShopsWithMaxDiscountOwners(
             List<Supplier> supplierList,
             List<SupplierDiscount> supplierDiscountList) {

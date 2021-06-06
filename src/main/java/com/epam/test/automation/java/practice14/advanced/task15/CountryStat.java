@@ -55,4 +55,13 @@ public class CountryStat {
     public int hashCode() {
         return Objects.hash(countryOfOrigin, numberOfStores, minimumPrice);
     }
+
+    @Override
+    public String toString() {
+        return "CountryStat{" +
+                "countryOfOrigin='" + countryOfOrigin + '\'' +
+                ", numberOfStores=" + numberOfStores +
+                ", minimumPrice=" + minimumPrice +
+                '}';
+    }
 }

@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Task7 {
+    private Task7(){}
 
     public static List<Integer> getSortedDifferenceBetweenSubsets(int number, List<Integer> integerList) {
         return Stream.concat(

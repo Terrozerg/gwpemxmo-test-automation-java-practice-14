@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Task6 {
+    private Task6(){}
 
     public static List<String> shouldReturnStringWithFirstLetterDigitAndLengthEqualsNumber
             (List<Integer> numbers, List<String> stringList) {
