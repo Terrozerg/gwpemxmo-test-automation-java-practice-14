@@ -1,7 +1,5 @@
 package com.epam.test.automation.java.practice14.advanced.task14;
 
-import com.epam.test.automation.java.practice14.advanced.task15.Task15;
-
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
